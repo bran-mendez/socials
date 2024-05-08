@@ -14,9 +14,11 @@ export default function Home() {
     <main
       className={`flex min-h-screen flex-col items-center justify-between p-24 ${inter.className}`}>
       <div className="container mx-auto">
-        <div className="image-container">
-          <img src="https://via.placeholder.com/300" alt="placeholder-image" />
-        </div>
+        <img
+          className="rounded-full self-center shadow-2xl h-auto w-auto min-w-[150px] max-h-[300px]"
+          src="https://i.imgur.com/KQbUUBn.png"
+          alt="profile-image"
+        />
         <div className="text-center mb-7">
           <h1 className="text-3xl font-semibold hover:font-bold tracking-wide hover:tracking-wider">
             Brandon Mendez

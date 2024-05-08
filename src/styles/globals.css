@@ -8,12 +8,6 @@
   font-family: "Quicksand", sans-serif;
 }
 
-.image-container {
-  margin-bottom: 20px;
-  border-radius: 100%;
-  align-self: center;
-}
-
 .buttons {
   display: flex;
   flex-direction: row;
