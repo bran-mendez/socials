@@ -17,10 +17,10 @@ export default function Home() {
       <div className="container mx-auto">
         <img
           className="rounded-full self-center shadow-2xl h-auto w-auto min-w-[150px] max-h-[300px]"
-          src="https://i.imgur.com/KQbUUBn.png"
+          src="https://i.imgur.com/fUJgylH.png"
           alt="profile-image"
         />
-        <div className="text-center mb-7 dark:text-slate-400 ">
+        <div className="text-center mb-7 dark:text-slate-300 ">
           <h1 className="text-3xl font-semibold hover:font-bold tracking-wide hover:tracking-wider">
             Brandon Mendez
           </h1>
@@ -42,7 +42,8 @@ export default function Home() {
             <FaLinkedin /> LinkedIn
           </button>
           <button onClick={() => handleButtonClick("mailto:brandon.mendez20@gmail.com")}>
-            <FaMailBulk /> Mail
+            <FaMailBulk />
+            Mail
           </button>
         </div>
       </div>
