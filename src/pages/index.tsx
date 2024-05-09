@@ -2,6 +2,7 @@ import Image from "next/image";
 import React from "react";
 import { Inter } from "next/font/google";
 import { FaGithub, FaLinkedin, FaMailBulk } from "react-icons/fa";
+import { IconContext } from "react-icons";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -12,14 +13,14 @@ const handleButtonClick = (url: string) => {
 export default function Home() {
   return (
     <main
-      className={`flex min-h-screen flex-col items-center justify-between p-24 ${inter.className}`}>
+      className={`flex min-h-screen flex-col dark:bg-slate-900 items-center justify-between p-24 ${inter.className}`}>
       <div className="container mx-auto">
         <img
           className="rounded-full self-center shadow-2xl h-auto w-auto min-w-[150px] max-h-[300px]"
           src="https://i.imgur.com/KQbUUBn.png"
           alt="profile-image"
         />
-        <div className="text-center mb-7">
+        <div className="text-center mb-7 dark:text-slate-400 ">
           <h1 className="text-3xl font-semibold hover:font-bold tracking-wide hover:tracking-wider">
             Brandon Mendez
           </h1>

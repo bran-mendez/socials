@@ -2,6 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
+.body {
+  background-color: #007bff;
+}
+
 .container {
   display: flex;
   flex-direction: column;
@@ -19,22 +23,14 @@ button {
   padding: 10px 20px;
   font-size: 16px;
   border: none;
-  background-color: #007bff;
+  background-color: #93162f;
   color: #fff;
   cursor: pointer;
   border-radius: 5px;
-  transition: background-color 0.3s ease; /* Add transition for smooth color change */
+  transition: background-color 0.3s ease;
 }
 
 button:hover {
   background-color: #fff;
-  color: #007bff;
-}
-
-.github {
-  background-color: #333;
-}
-
-.linkedin {
-  background-color: #0077b5;
+  color: #93162f;
 }
